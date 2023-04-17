@@ -11,6 +11,7 @@ namespace aulaADO17042023.Services
 {
     public class AirplaneService
     {
+
         readonly string strConn = @"Server=(localdb)\MSSQLLocalDB;Integrated Security=true;AttachDbFileName=C:\USERS\ADM\DOCUMENTS\FLY.MDF";
         readonly SqlConnection conn;
 
